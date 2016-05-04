@@ -68,7 +68,7 @@
     
     <meta-data
             android:name="presage_key"
-            android:value="267593" />
+            android:value="xxx" />
 
         <service android:name="io.presage.services.PresageServiceImp" />
 
