@@ -37,8 +37,11 @@
           android:name="ETCCHANNEL"
           android:value="xxx" />
     <meta-data
-          android:name="APP_KEY"
-          android:value="xxx" />
+            android:name="UMENG_APPKEY"
+            android:value="xxx" />
+    <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="xxx" />
     <meta-data
           android:name="com.google.android.gms.version"
           android:value="@integer/google_play_services_version" />
@@ -212,4 +215,4 @@
 ```
 
 #### 参数获取
-ETCCHANNEL、APP_KEY、presage_key、MbvLicense、MbvProduction、MbvChannel这些参数等确定应用包名后，告知我方进行配置。
+ETCCHANNEL、UMENG_APPKEY、UMENG_CHANNEL、presage_key、MbvLicense、MbvProduction、MbvChannel这些参数等确定应用包名后，告知我方进行配置。
